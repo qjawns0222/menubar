@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body>
+        <div class="container">
+            <div class="logo">
+                <i class="type1"><img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA1MjJfMjc3%2FMDAxNjIxNjU1NTk2NjA2.EWiFQbR_E9GvFgw28Cj-rvZGfuY0t6zLUImbqDvbLvcg.axIFokljWifqLq0dnQ-7lNDYW2RnKIQdkPnBBJ0LGY0g.JPEG.rlska2511%2F%25A4%25B5%25A4%25A1%25A4%25A9.jpg&type=a340" height=20px></i>
+                <a  href="https://search.naver.com/search.naver?sm=tab_hty.top&where=image&query=%E3%84%B9%EB%A1%9C%EA%B3%A0&oquery=%EC%9C%A0%ED%8A%9C%EB%B8%8C&tqi=hkkzGlp0YihssQJRzPNssssstVR-204051" >DreamCoading</a>
+            </div>
+            <ul class="menu">
+                <a href="#" class="menu name1">home</a>
+                <a href="#" class="menu name2">gallery</a>
+                <a href="#" class="menu name3">wedding</a>
+                <a href="#" class="menu name4">FAQ</a>
+                <a href="#" class="menu name5">booking</a>
+            </ul>
+            <div class="sub">
+                <a href="#"><li class="sub option1"><img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDEwMDdfMTg2%2FMDAxNjAyMDQ0NTAxNDE5.JujVc6tEy1IQTpyJXYq28_dIdwy3ieikCD0sloJ5NVog.yhGzFoeYlaUpvc0BwRemu9tNMnZI-O02M8FWiTOmtpgg.JPEG.tufframbo1%2Fvwpf3HhF_400x400.jpg&type=sc960_832" height=20px></li></a>
+                <a href="#"> <li class="sub option2"><img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTAzMDRfMTAy%2FMDAxNjE0ODQ0NzQ4NDk4.isxkLaSnB3abTpsXkwxwz26V1laBRo-JpSAd1dWBMwkg.haRI4kpcXpSmWPqne9YxvtrJ2R4Yts674izCBe4S8I0g.JPEG.grimbooks%2Fface.jpg&type=sc960_832" height=20px></li></a>
+            </div>
+            <a href="#" class="button"><img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTEyMDJfMjU4%2FMDAxNjM4NDA4MjgxNjIz.rd68lxaPMoyseRUcBVvpambnO_wz0CdTrFvak5EJykMg.9uw_CFdQcvNX8UWXpur0MOhhsFF8Clx3DO_euu2aTYgg.JPEG.de613%2F%25C7%25CF%25B4%25C3%25BF%25AC%25B4%25DE_%25BC%25FA%25C1%25FD_%25B7%25CE%25B0%25ED%25B5%25F0%25C0%25DA%25C0%25CE_%25C1%25A6%25C0%25DB_2.jpg&type=sc960_832" height=20px></a>
+        </div>
+        <style>
+            body{
+                margin:0;
+            }
+            a{
+                text-decoration: none;
+                color:white;
+            }
+
+            .container{
+                color: azure;
+                background-color: rgb(0, 12, 8);
+                flex-flow: row wrap;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;      
+            }
+            .menu{
+                display: flex;
+                padding:10px 24px;
+                padding-left: 0;
+            
+                
+            }
+            .sub
+            {
+                display: flex;
+                padding:8px;
+                padding-left: 0;
+             
+
+            }
+            .menu a:hover{
+                padding: 8px 12px;
+                background-color: wheat;
+
+                
+            }
+            .menu a:hover{
+                padding: 8px 12px;
+                background-color: wheat;
+
+            }
+            .button
+            {
+                display:none;
+                position:absolute;
+                right:32px;
+                
+            }
+            .logo{
+                display: flex;
+                font-size:24px;
+            }
+            @media screen and (max-width:768px){
+                .container{
+                    flex-direction: column;
+                    align-items:flex-start;
+                }
+                .menu{
+                    flex-direction: column;
+                    
+                    width: 100%;
+                   
+                }
+                .menu a{
+                    width:100%;
+                    text-align:center;
+                }
+                .sub
+                {
+                    flex-direction: column;
+                    align-self: center;
+                    
+                }
+
+                .logo{
+                    align-self: flex-start;
+                    
+                    
+                }
+                .button
+            {
+                
+                display:flex;
+                
+            }
+            }             
+            
+
+        </style>
+    </body>
+</html>

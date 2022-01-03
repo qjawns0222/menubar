@@ -1,0 +1,71 @@
+body{
+    margin:0;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.nav{
+    display: flex;
+    background-color: cadetblue;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 24px;
+}
+.menu ul{
+    display:flex;
+    list-style: none;
+    padding-left: 0;
+  
+}
+.menu li{
+    padding: 8px 12px;
+}
+.logo ul{
+    color:coral;
+}
+.link a{
+    color:coral;
+    padding: 8px 12px;
+}
+.link ul{
+    display:flex;
+    padding-left: 0;
+    
+}
+.button{
+    display:none;
+    position:absolute;
+    right: 24px;
+}
+
+@media screen and (max-width:768px){
+    .nav{
+        flex-direction: column;
+        align-items:flex-start;
+    }
+    .menu{
+        width:100%;
+    }
+    .menu ul{
+        flex-direction: column;
+        
+       
+    }
+    .link{
+        width:100%;
+    }
+    .link ul{
+        flex-direction: column;
+    }
+    .link ul a{
+        align-self: center;
+    }
+    .menu ul li{
+        align-self: center;
+    }
+    .button{
+        display:block;
+    }
+}
